@@ -2,3 +2,90 @@ body {
 font-family: 'Roboto', sans-serif;
 color: #434455;
 }
+
+.header-contact a {
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.7;
+}
+
+.contact-link {
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+.contact-link:hover, :focus {
+    color: #404BBF;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #9747FF;
+}
+.button {
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+}
+.header {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+.nav-logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.5;
+    
+}
+.nav-link:hover {
+    color: #404BBF;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    line-height: 1.2;
+    color: #2E2F42;
+    
+}
+footer {
+    background-color: #2E2F42;
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F4F4FD;
+    text-decoration: none;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E7E9FC;
+}
