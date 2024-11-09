@@ -65,8 +65,9 @@ h3 {
 }
 
 .hero {
-    ;
+    background-color: #2E2F42;
     color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero-title {
