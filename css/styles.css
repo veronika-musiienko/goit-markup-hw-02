@@ -3,14 +3,20 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-
 .header-contact a {
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
     font-style: normal;
-    letter-spacing: 0.02emж
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
+
 
 .contact-link {
     color: #434455;
@@ -19,10 +25,6 @@ body {
 
 }
 
-.contact-link:hover,
-:focus {
-    color: #404BBF;
-}
 
 
 
@@ -37,7 +39,7 @@ a {
 }
 
 .nav-logo {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 18px;
     color: #4d5ae5;
@@ -49,6 +51,10 @@ a {
 .logo-text {
     color: #2E2F42;
 }
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
 .nav-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -56,11 +62,12 @@ a {
     color: #2E2F42;
     text-decoration: none;
     line-height: 1.5;
-
+    letter-spacing: 0.02em;
 }
 
-.nav-link:hover {
-    color: #404BBF;
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
 }
 
 h1,
@@ -162,7 +169,7 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-Повний CSS-код css Копіювати код .portfolio-title {
+.portfolio-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -171,9 +178,7 @@ h3 {
 }
 
 .portfolio ul li img[src^="./images"][src$=".jpg"],
-.portfolio ul li img[src^="./images"][src$=".jpeg"] {
-    width: 360px;
-}
+.portfolio ul li img[src^="./images"][src$=".jpeg"] 
 
 .portfolio-item-title {
     font-weight: 500;
@@ -188,21 +193,28 @@ h3 {
     letter-spacing: 0.02em;
 }
 
+
 footer {
-    background-color: #2E2F42;
-    color: #2E2F42;
-    font-family: 'Roboto', sans-serif;
+    background-color: #2e2f42;
 }
 
 .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    font-weight: bold;
-    color: #F4F4FD;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     text-decoration: none;
 }
 
+.logo-text {
+    color: #f4f4fd;
+}
+
 .footer-text {
-    font-size: 16px;
     line-height: 1.5;
-    color: #E7E9FC;
+    color: var(--text-color, #f4f4fd);
+    letter-spacing: 0.02em;
 }
