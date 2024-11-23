@@ -12,12 +12,6 @@ body {
     text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
-
 .contact-link {
     color: #434455;
     font-weight: 400;
@@ -25,7 +19,10 @@ body {
 
 }
 
-
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
 
 
 a {
@@ -51,10 +48,16 @@ a {
 .logo-text {
     color: #2E2F42;
 }
-.nav ul {
-    list-style: none;
-    padding: 0;
+
+.home-link {
+    letter-spacing: 0.02em;
 }
+
+.home-link:hover,
+.home-link:focus {
+    color: #404bbf;
+}
+
 .nav-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -133,14 +136,14 @@ h3 {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.features-list li h3 {
+.features-list .features-item .feature-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.features-list li p {
+.features-list .features-item .feature-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -157,13 +160,13 @@ h3 {
 .team ul li {
     background-color: #FFFFFF;
 }
-.team ul li h3 {
+.team-item .team-member-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.team ul li p {
+.team-item .team-member-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -178,7 +181,9 @@ h3 {
 }
 
 .portfolio ul li img[src^="./images"][src$=".jpg"],
-.portfolio ul li img[src^="./images"][src$=".jpeg"] 
+.portfolio ul li img[src^="./images"][src$=".jpeg"] {
+
+}
 
 .portfolio-item-title {
     font-weight: 500;
